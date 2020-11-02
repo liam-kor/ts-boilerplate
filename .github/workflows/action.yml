@@ -30,7 +30,7 @@ jobs:
         run: yarn install
 
       - name: Run Tests
-        run: yarn test --coverage
+        run: yarn test --coverage --silent --detectOpenHandles
 
       - uses: codecov/codecov-action@v1
         with:
