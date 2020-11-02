@@ -31,7 +31,6 @@ jobs:
 
       - name: Run Tests
         run: yarn test --coverage
-        steps:
 
       - uses: actions/checkout@master
       - uses: codecov/codecov-action@v1
