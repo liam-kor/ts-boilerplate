@@ -5,3 +5,7 @@ export const util1 = function (a: number, b: number): number {
 export const util2 = function (a: number, b: number): number {
   return a * b;
 };
+
+export const util3 = function (a: number, b: number): number {
+  return a / b;
+};
