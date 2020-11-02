@@ -23,7 +23,7 @@
   "dependencies": {},
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["json", "html"],
+    "coverageReporters": ["json"],
     "transform": {
       "^.+\\.ts$": "ts-jest"
     },
