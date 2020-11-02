@@ -17,7 +17,7 @@
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
-    "ignorePatterns": ["dist/", "node_modules/"],
+    "ignorePatterns": ["dist/", "node_modules/", "tests"],
     "plugins": [
         "@typescript-eslint"
     ],
