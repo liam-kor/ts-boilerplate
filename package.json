@@ -22,6 +22,8 @@
   },
   "dependencies": {},
   "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["json", "html"],
     "transform": {
       "^.+\\.ts$": "ts-jest"
     },
